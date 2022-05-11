@@ -10,6 +10,8 @@
         </div>
       </div>
 
+
+
     </q-img>
     <div style="margin-top:500px"></div>
     <div class="row  justify-around  items-center content-center">
