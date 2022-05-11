@@ -7,8 +7,9 @@
           <div class="text-h6 text-weight-light">ABOUT US</div><br>
          <div style="font-size:75px" class=" text-weight-regular">Why You Should</div><br>
          <div  class="text-weight-bolder bg-black" style=" font-size:60px;width:310px;padding-left:5px">Choose Us</div>
-        </div>    
+        </div>
       </div>
+
     </q-img>
     <div style="margin-top:500px"></div>
     <div class="row  justify-around  items-center content-center">
@@ -33,7 +34,7 @@
         <div class="text-h2 text-weight-medium" style="margin-left:100px ">03.</div>
       <q-card-section>
         <div class="text-h6">We’re The Best Company</div><br>
-        
+
         <div class="text-subtitle1 text-center text-weight-light">Cras quis nulla commodo, <br>aliquam lectus sed, blandit<br> augue. Cras ullamcorper.</div><br>
       </q-card-section><br>
     </q-card>
