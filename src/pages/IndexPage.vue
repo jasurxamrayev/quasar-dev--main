@@ -16,7 +16,7 @@
     <div style="margin-top:500px"></div>
     <div class="row  justify-around  items-center content-center">
     <!-- card1 -->
-      <q-card style="width: 23%" class="my-card card-hover"><br>
+      <q-card style="width: 23%;height: 290px;" class="my-card card-hover"><br>
         <div class="text-h2 text-weight-medium" style="margin-left:100px ">01.</div>
       <q-card-section>
         <div class="text-h6">We're Super Talented Team</div><br>
@@ -24,7 +24,7 @@
       </q-card-section><br>
     </q-card>
         <!-- card2 -->
-      <q-card style="width: 23%" class="my-card card-hover border"><br>
+      <q-card style="width: 23%; height: 290px;" class="my-card card-hover border"><br>
         <div class="text-h2 text-weight-medium" style="margin-left:100px ">02.</div>
       <q-card-section>
         <div class="text-h6">We Have Best Equipment</div><br>
@@ -32,7 +32,7 @@
       </q-card-section><br>
     </q-card>
         <!-- card1 -->
-      <q-card style="width: 23%" class="my-card card-hover"><br>
+      <q-card style="width: 23%;height: 290px;" class="my-card card-hover"><br>
         <div class="text-h2 text-weight-medium" style="margin-left:100px ">03.</div>
       <q-card-section>
         <div class="text-h6">We’re The Best Company</div><br>
@@ -142,37 +142,100 @@
           </q-card>
       </div>
     </div>
-    <div class="pej4">
-    <q-card style="width:25%;" class="my-card">
-      <div>
-        <div>80$</div>
-        <div>Manthly</div>
+  <div class="fit row wrap justify-evenly items-start content-start">
+    <q-card  style="width:25%;border:3px solid rgba(169, 163, 163, 0.174);" class="my-card"><br>
+      <div  class="row justify-between items-center content-center">
+        <div style="margin-left:10px" class="text-h3">80$</div>
+        <div style="margin-right:17px" class="text-h6">Manthly</div>
       </div>
 
-        <q-card-section>
+        <q-card-section >
           <div class="text-h6">Basic Plan</div>
         </q-card-section>
-
+        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;margin-bottom:20px "></div><br>
         <q-card-section class="q-pt-none">
-          <div class="fit row wrap">
-            <q-icon name="done"></q-icon>
-            <div>Unlimited Lift</div>
-          </div>
-          <div class="fit row wrap">
-            <q-icon name="done"></q-icon>
-            <div>Unlimited Lift</div>
-          </div>
-          <div class="fit row wrap">
-            <q-icon name="done"></q-icon>
-            <div>Unlimited Lift</div>
-          </div>
-          <div class="fit row wrap">
-            <q-icon name="done"></q-icon>
-            <div>Unlimited Lift</div>
-          </div>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="color:#f56923;font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Unlimited Lift</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Instructor’s Help</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Free Hugs</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Coffee & Cookies</div>
+          </div><br>
         </q-card-section>
-    </q-card>
+        <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
+     </q-card>
+         <!-- ikkinchi card -->
+         <q-card  style="width:25%;border: 5px solid #f56923; " class="my-card"><br>
+      <div  class="row justify-between items-center content-center">
+        <div style="margin-left:10px" class="text-h3">100$</div>
+        <div style="margin-right:17px" class="text-h6">Manthly</div>
+      </div>
+        <q-card-section >
+          <div class="text-h6">Stadard Plan</div>
+        </q-card-section>
+        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;,margin-bottom:20px "></div><br>
+        <q-card-section class="q-pt-none">
+          <div class="row items-center content-center">
+            <q-icon name="done" style="color:#f56923;font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Unlimited Lift</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Instructor’s Help</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Free Hugs</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Coffee & Cookies</div>
+          </div><br>
+        </q-card-section>
+        <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
+     </q-card>
+     <!-- uchinchi card -->
+         <q-card unelevated style="width:25%;border:3px solid rgba(169, 163, 163, 0.174);" class="my-card"><br>
+      <div  class="row justify-between items-center content-center">
+        <div style="margin-left:10px" class="text-h3">120$</div>
+        <div style="margin-right:17px" class="text-h6">Manthly</div>
+      </div>
+
+        <q-card-section >
+          <div class="text-h6">Premium Plan</div>
+        </q-card-section>
+        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;,margin-bottom:20px "></div><br>
+        <q-card-section class="q-pt-none">
+          <div class="row items-center content-center">
+            <q-icon name="done" style="color:#f56923;font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Unlimited Lift</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Instructor’s Help</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Free Hugs</div>
+          </div><br>
+          <div class="row items-center content-center">
+            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <div style="font-size:18px;margin-left: 10px;">Coffee & Cookies</div>
+          </div><br>
+        </q-card-section>
+        <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
+     </q-card>
     </div>
+    <div style="margin-top:200px"></div>
   </div>
 </template>
 
@@ -212,6 +275,14 @@ export default {
   border-left: none;
   border-top: none;
   border-right: none;
+}
+.hover-btn{
+  transition: 0.5s;
+}
+.hover-btn:hover{
+  color: #fff;
+  background: black;
+  transition: 0.5s;
 }
 </style>
 
