@@ -141,18 +141,23 @@
             </q-slide-transition>
           </q-card>
       </div>
+    </div><br>
+    <div class="q-ml-xl q-mt-xl">
+       <div class="text-subtitle2">BEST PRICING</div><br>
+       <div class="text-h4 ">Why Pay <span style="color: white;background: black;" >More?</span></div>
     </div>
-  <div class="fit row wrap justify-evenly items-start content-start">
+
+  <div style="margin-top:100px" class="fit row wrap justify-evenly items-start content-start">
     <q-card  style="width:25%;border:3px solid rgba(169, 163, 163, 0.174);" class="my-card"><br>
       <div  class="row justify-between items-center content-center">
         <div style="margin-left:10px" class="text-h3">80$</div>
-        <div style="margin-right:17px" class="text-h6">Manthly</div>
+        <div style="margin-right:17px;background:#ebebeb;" class="text-h6">Manthly</div>
       </div>
 
         <q-card-section >
           <div class="text-h6">Basic Plan</div>
         </q-card-section>
-        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;margin-bottom:20px "></div><br>
+        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;margin-bottom:2px "></div><br>
         <q-card-section class="q-pt-none">
           <div class="row items-center content-center">
             <q-icon name="done" style="color:#f56923;font-size:18px;font-weight: 900;"></q-icon>
@@ -174,15 +179,22 @@
         <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
      </q-card>
          <!-- ikkinchi card -->
-         <q-card  style="width:25%;border: 5px solid #f56923; " class="my-card"><br>
+
+
+
+         <q-card  style="width:25%; border: 5px solid #f56923; " class="my-card">
+
+         <br>
+
       <div  class="row justify-between items-center content-center">
         <div style="margin-left:10px" class="text-h3">100$</div>
-        <div style="margin-right:17px" class="text-h6">Manthly</div>
+        <div style="margin-right:17px;background:#ebebeb;" class="text-h6">Manthly</div>
       </div>
+
         <q-card-section >
           <div class="text-h6">Stadard Plan</div>
         </q-card-section>
-        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;,margin-bottom:20px "></div><br>
+        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;,margin-bottom:2px "></div><br>
         <q-card-section class="q-pt-none">
           <div class="row items-center content-center">
             <q-icon name="done" style="color:#f56923;font-size:18px;font-weight: 900;"></q-icon>
@@ -201,19 +213,21 @@
             <div style="font-size:18px;margin-left: 10px;">Coffee & Cookies</div>
           </div><br>
         </q-card-section>
-        <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
+        <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;background:#f56923">ORDER NEW</q-btn><br><br><br>
      </q-card>
+
+
      <!-- uchinchi card -->
          <q-card unelevated style="width:25%;border:3px solid rgba(169, 163, 163, 0.174);" class="my-card"><br>
       <div  class="row justify-between items-center content-center">
         <div style="margin-left:10px" class="text-h3">120$</div>
-        <div style="margin-right:17px" class="text-h6">Manthly</div>
+        <div style="margin-right:17px;background:#ebebeb;" class="text-h6">Manthly</div>
       </div>
 
         <q-card-section >
           <div class="text-h6">Premium Plan</div>
         </q-card-section>
-        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;,margin-bottom:20px "></div><br>
+        <div style="height: 0.5px; background:#999;width:85%;margin-left:5%;,margin-bottom:2px "></div><br>
         <q-card-section class="q-pt-none">
           <div class="row items-center content-center">
             <q-icon name="done" style="color:#f56923;font-size:18px;font-weight: 900;"></q-icon>
@@ -235,7 +249,16 @@
         <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
      </q-card>
     </div>
-    <div style="margin-top:200px"></div>
+    <div class="contianer">
+      <div class="q-ml-xl q-mt-xl m" >
+          <div class="text-h5" style="color:white" >newsletter</div><br>
+        <div class="text-subtitle1" style="color: #444;">A well-executed brand strategy affects all aspects of a business and is <br> connected to consumer needs & emotions.</div><br>
+        <div style="width:400px;">
+          <q-input style="background:white;"  type="text" placeholder="Your-emil" name="Send" />
+        </div><br><br>
+      <div class="text-subtitle1 white">© XTRM. <span class="mini-text text-subtitle1">All Right Reserved 2019.</span></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -283,6 +306,25 @@ export default {
   color: #fff;
   background: black;
   transition: 0.5s;
+}
+.contianer{
+  width: 100%;
+  height: 53vh;
+  background: #222;
+  margin-top:100px;
+}
+
+.m{
+  padding-left: 50px;
+padding-top: 40px;
+}
+
+.white{
+  color:white;
+}
+.mini-text{
+  color: #444;
+
 }
 </style>
 
