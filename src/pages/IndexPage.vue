@@ -179,9 +179,6 @@
         <q-btn class="hover-btn" style="width:170px;height:50px;margin-left: 30px;">ORDER NEW</q-btn><br><br><br>
      </q-card>
          <!-- ikkinchi card -->
-
-
-
          <q-card  style="width:25%; border: 5px solid #f56923; " class="my-card">
 
          <br>
@@ -201,11 +198,11 @@
             <div style="font-size:18px;margin-left: 10px;">Unlimited Lift</div>
           </div><br>
           <div class="row items-center content-center">
-            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <q-icon name="done" style="font-size:18px;font-weight: 900;" class="icon-color"></q-icon>
             <div style="font-size:18px;margin-left: 10px;">Instructor’s Help</div>
           </div><br>
           <div class="row items-center content-center">
-            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <q-icon name="done" style="font-size:18px;font-weight: 900;" class="icon-color"></q-icon>
             <div style="font-size:18px;margin-left: 10px;">Free Hugs</div>
           </div><br>
           <div class="row items-center content-center">
@@ -234,15 +231,15 @@
             <div style="font-size:18px;margin-left: 10px;">Unlimited Lift</div>
           </div><br>
           <div class="row items-center content-center">
-            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <q-icon name="done" style="font-size:18px;font-weight: 900;" class="icon-color"></q-icon>
             <div style="font-size:18px;margin-left: 10px;">Instructor’s Help</div>
           </div><br>
           <div class="row items-center content-center">
-            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <q-icon name="done" style="font-size:18px;font-weight: 900;" class="icon-color"></q-icon>
             <div style="font-size:18px;margin-left: 10px;">Free Hugs</div>
           </div><br>
           <div class="row items-center content-center">
-            <q-icon name="done" style="font-size:18px;font-weight: 900;"></q-icon>
+            <q-icon name="done" style="font-size:18px;font-weight: 900;" class="icon-color"></q-icon>
             <div style="font-size:18px;margin-left: 10px;">Coffee & Cookies</div>
           </div><br>
         </q-card-section>
@@ -324,7 +321,10 @@ padding-top: 40px;
 }
 .mini-text{
   color: #444;
+}
 
+.icon-color{
+  color: #f56923;
 }
 </style>
 
